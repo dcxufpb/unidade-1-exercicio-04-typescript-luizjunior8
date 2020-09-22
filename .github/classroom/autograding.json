@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Teste",
-      "setup": "npm run install",
+      "setup": "npm install",
       "run": "npm test",
       "input": "",
       "output": "",
