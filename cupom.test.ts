@@ -94,7 +94,7 @@ test('Exercício 2 - customizado', () => {
   cupom.dados.numero = 100;
   cupom.dados.complemento = "Casa";
   cupom.dados.bairro = "Centro";
-  cupom.dados.municipio = "Araçagi";
+  cupom.dados.municipio = "Aracagi";
   cupom.dados.estado = "PB";
   cupom.dados.cep = "58270-000";
   cupom.dados.telefone = "(83) 98111-2696";
@@ -106,7 +106,7 @@ test('Exercício 2 - customizado', () => {
   expect(cupom.dados_loja()).toBe(
     `Jr Tech
 Geraldo Correia de Melo, 100 Casa
-Centro - Araçagi - PB
+Centro - Aracagi - PB
 CEP:58270-000 Tel (83) 98111-2696
 Matriz
 CNPJ: 89.415.255/0001-29
